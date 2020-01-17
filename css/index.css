@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+#nav-container{
+    display: flex;
+    justify-content: flex-start;
+    border:black solid 1px;
+}
+
+nav {
+    display: flex;
+    max-width: 100%;
+    border: black solid;
+    justify-content: flex-end;
+}
+
+nav a{
+    display: flex;
+    max-width: 100%;
+    padding: 5%;
+    justify-content: space-around;
+
+}
+
+ #lambda-logo{
+    border: black 1px solid;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
