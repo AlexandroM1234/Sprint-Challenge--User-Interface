@@ -81,7 +81,7 @@ nav {
     display: flex;
     max-width: 100%;
     flex-grow:1 ;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 }
 
@@ -97,4 +97,75 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.text{
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+#middle-section{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: dashed black 0.5px;
+    justify-content: space-around;
+
+}
+
+.box-style{
+    padding: 2%;
+    width: 45%;
+    margin: 1%;
+    border-bottom: dashed black 0.5px;
+}
+
+.box-style button{
+    border:black solid;
+    margin: 4% 0%;
+    padding: 2% 5%;
+    border-radius: 10px;
+}
+
+.box-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.box-img img{
+    margin: 3%;
+    width: 100%;
+}
+
+.bottom-container {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-container .text-container {
+    padding-top: 4%;
+    padding-left: 1%;
+}
+
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    margin:2%;
+    text-decoration: none;
 }
