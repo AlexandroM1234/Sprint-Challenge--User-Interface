@@ -81,7 +81,7 @@ nav {
     display: flex;
     max-width: 100%;
     flex-grow:1 ;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
 }
 
