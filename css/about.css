@@ -71,6 +71,8 @@ p {
     margin: 0 auto;
 }
 
+
+/*Nav Styling*/
 #nav-container{
     display: flex;
     justify-content: flex-start;
@@ -91,20 +93,21 @@ nav a{
     padding: 2%;
 }
 
-
+/*Img styling*/
 #img-container{
     padding: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+/*Text container styling*/
 .text{
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
+/*Midlle section to make a flexbox*/
 #middle-section{
     display: flex;
     flex-wrap: wrap;
@@ -113,6 +116,7 @@ nav a{
 
 }
 
+/*Individual box inside the flexbox*/
 .box-style{
     padding: 2%;
     width: 45%;
@@ -127,6 +131,7 @@ nav a{
     border-radius: 10px;
 }
 
+/*Img in each box styling*/
 .box-img{
     display: flex;
     justify-content: center;
@@ -139,6 +144,7 @@ nav a{
     width: 100%;
 }
 
+/*Bottom container*/
 .bottom-container {
     display: flex;
     margin: 0 2% 20px;
@@ -150,7 +156,7 @@ nav a{
     padding-left: 1%;
 }
 
-
+/*Footer styling*/
 footer {
     width: 100%;
     background: black;
