@@ -74,26 +74,29 @@ p {
 #nav-container{
     display: flex;
     justify-content: flex-start;
-    border:black solid 1px;
+    margin: 1%;
 }
 
 nav {
     display: flex;
     max-width: 100%;
-    border: black solid;
-    justify-content: flex-end;
+    flex-grow:1 ;
+    justify-content: space-evenly;
+
 }
 
 nav a{
     display: flex;
     max-width: 100%;
-    padding: 5%;
-    justify-content: space-around;
-
+    padding: 2%;
 }
 
- #lambda-logo{
-    border: black 1px solid;
+
+#img-container{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -162,11 +165,11 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
+    margin:2%;
     text-decoration: none;
 }
